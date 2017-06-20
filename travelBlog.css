@@ -1,3 +1,5 @@
+@font-face { font-family: Medio; src: url('medio.otf'); }
+
 #header-img {
 	height: 400px;
 	position: center;
@@ -5,19 +7,28 @@
 	margin: auto;
 	margin-top: -150px;
 	/* box-shadow: x-coordinate y-coordinate blur #color*/
-	box-shadow: 12px 12px #E5E3E8;
+	box-shadow: 8px 8px #E5E3E8;
 
 }
 
 body {
-	font-family: 'Playfair Display', serif;
-	font-weight: 400;
-	color: #2B2B2B;
+	font-family: 'Medio', serif;
+	font-weight: 300;
+	color: #404040;
 }
 
 header {
+	font-family: 'Libre Baskerville', serif;
 	text-align: center;
 	color: #2B2B2B;
+}
+
+p {
+	/*letter-spacing: 1px;*/
+	word-spacing: 3px;
+	text-align: justify;
+	font-size: 18px;
+	line-height: 1.5;
 }
 
 h1 {
@@ -53,8 +64,8 @@ h4 {
 }
 
 .smallHr {
-	width: 50%;
-	margin-bottom: 25px;
+	width: 40px;
+	margin-bottom: 10px;
 }
 
 .footerHr {
@@ -68,5 +79,5 @@ footer {
 }
 
 .entry {
-	margin: 0 25%;
+	margin: 0 20%;
 }
