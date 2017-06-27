@@ -15,6 +15,7 @@
 body {
 	font-family: 'Medio', sans-serif;
 	font-weight: 300;
+	margin-bottom: 0;
 	color: #404040;
 }
 
@@ -80,6 +81,7 @@ h4 {
 
 footer {
 	margin: 30px;
+	margin-bottom: 0;
 	font-size: 15px;
 }
 
