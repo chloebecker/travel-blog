@@ -26,7 +26,7 @@ header {
 }
 
 hr {
-	width: 64%;
+	width: 60%;
 	margin-bottom: 30px;
 	background-color: #1F1F1F;
 	border-color: #1F1F1F;
@@ -55,12 +55,15 @@ h2 {
 
 h3 {
 	font-size: 18px;
-	margin: 5px 0;
-	padding: 10px 0;
 	color: #707070;
 	text-align: center;
+}
+
+.date {
 	border-top: 1px solid #9d9d9d;
 	border-bottom: 1px solid #9d9d9d;
+	margin: 5px 0;
+	padding: 15px 0;
 }
 
 h4 {
@@ -71,7 +74,7 @@ h4 {
 }
 
 .entry {
-	margin: 0 18%;
+	margin: 0 20%;
 }
 
 footer {
